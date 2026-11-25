@@ -37,7 +37,35 @@ Patient_report_3
 <img width="656" height="98" alt="Password for Patient report 3" src="https://github.com/user-attachments/assets/e0657f36-8b7d-451f-8b75-0a6f71f7414f" />
 <img width="577" height="812" alt="Patient_report_3" src="https://github.com/user-attachments/assets/9d5115d6-0409-42dd-93f4-27fc7a986c58" />
 
+Staff information including doctors
+<img width="1917" height="877" alt="Staff info " src="https://github.com/user-attachments/assets/beff0257-a041-4035-a351-cd5527accb96" />
 
+Lab reports of patients after login into the patients' portal
+<img width="1919" height="1047" alt="Lab reports of patients" src="https://github.com/user-attachments/assets/37df6159-442d-4f95-9b61-ac11d58a898a" />
 
+Using SQL payload to log into the form.
+<img width="1919" height="1047" alt="Login into the portal with SQL payload" src="https://github.com/user-attachments/assets/d0a1bcc9-3580-4df6-9b79-232e211e1be9" />
 
+Robots.txt file with 3 folders: ``/Patient/``, ``/Staff/``, ``/old/``(Where is found the SQL database with the staff information)
+<img width="1919" height="1047" alt="Robots txt" src="https://github.com/user-attachments/assets/c270e704-356d-401a-8e45-327c52d640ae" />
+
+Hospital staff information within the ``/old/`` directory
+<img width="1919" height="1047" alt="Hospital Staff information" src="https://github.com/user-attachments/assets/6a469e5a-caa3-4ddc-812a-8f44d6a09cf2" />
+
+WafW00f command
+<img width="1919" height="344" alt="Wafw00f" src="https://github.com/user-attachments/assets/2aa51463-6cdf-4b65-a2ec-c2e7473f9d41" />
+
+nslookup, whatweb, curl -I commands
+<img width="1919" height="528" alt="nslookup, whatweb, curl" src="https://github.com/user-attachments/assets/9e4b133a-0c5b-4531-83c4-44570300b120" />
+
+dnsrecon -d
+<img width="1919" height="633" alt="dnsrecon" src="https://github.com/user-attachments/assets/84cf73ef-72db-4cd1-bb94-8b53a89c3675" />
+
+whois
+<img width="1919" height="1042" alt="whois" src="https://github.com/user-attachments/assets/204a96cf-5fac-4bc5-9a52-e1feab43451e" />
+<img width="1919" height="1042" alt="Screenshot From 2026-11-23 05-23-01" src="https://github.com/user-attachments/assets/34dc4129-3134-4032-bde2-f63f08f5e5df" />
+<img width="1919" height="271" alt="Screenshot From 2026-11-23 05-23-16" src="https://github.com/user-attachments/assets/5322d60d-0f92-4b61-b370-32af9190171c" />
+
+SQL error revealed
+<img width="1919" height="1012" alt="SQL error revealed" src="https://github.com/user-attachments/assets/c2fc9112-460b-4d48-aae7-ed5a96e7dd9d" />
 
