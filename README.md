@@ -1,9 +1,9 @@
 # NETWORKWALKSRANEETH-B084-WK4-PENETRATION_TESTING_MEDIROZAHOSPITAL
-## Executive summary
+## 📌Executive summary
 
 In this project, I've conducted a Black-box Penetration test on my client **Mediroza General Hospital**. I have been instructed to conduct a security test on their web infrastructure. There were potential vulnerabilities that I've found. This project revealed several vulnerabilities where patients' files, which contained sensitive information such as: Doctor's name, Date of birth, test results were extractable from the patients' portal without credentials, personal information were available inside an SQL data which was received when pentesting through the website. This pentest is conducted with authorized access from the client starting from 23rd November 2026.
 
-## Scope and Methodology
+## 🔭 Scope and Methodology
 
 | Tools | Purpose |
 | -----------| -------- |
@@ -23,7 +23,7 @@ In this project, I've conducted a Black-box Penetration test on my client **Medi
 | Duration  | 3 days starting from 23rd November 2026  |
 
 
-## Evidence of exploitation
+## 🔍Evidence of exploitation
 
 Patient_report_1
 <img width="1917" height="1077" alt="Password for Patient report 1" src="https://github.com/user-attachments/assets/f095c5e0-77e9-4248-9c4f-0048484a45c2" />
@@ -70,7 +70,7 @@ SQL error revealed
 <img width="1919" height="1012" alt="SQL error revealed" src="https://github.com/user-attachments/assets/c2fc9112-460b-4d48-aae7-ed5a96e7dd9d" />
 
 
-## Risk Rating
+## ⚠️ Risk Rating
 
 | Finding | Severity | Rationale |
 | ---------- | ---- | --------| 
@@ -79,8 +79,17 @@ SQL error revealed
 | Passwords are guessable on the extracted reports | 🟠 High | implementing weak passwords on PDFs can make it easy for threat actors to obtain access to the sensitive information in the reports |
 
 
-## Recommendations and Remediations
+## 🔨 Recommendations and Remediations
 
 1. **Enhance strong authentication on the login form with parameterized queries**: Use bound parameters to pass user input instead of constructing SQL statements by concatenating strings. Even if the user inputs a malicious SQL statement such as ``' OR 1=1 --``, the database sees it as plain text only.
 2. **Strengthen password protection of patients' reports**: Use PDF encryption and access controls for keys for securing patient PDF files rather than depending on simple password protection.
 3. **Add rate limiting and account lockout**: Enforce repeated failed login attempts to a certain limit. So that after the limit, the account is lockout so the file cannot be unlocked and extracted. This helps to prevent brute-force attacks.
+
+## 🔴Warning
+These information is to be used legally for company security improvements. Any misuse will result in penalties and other legal action taken against those who misuse this information.
+
+## 🧑‍🦱 Project author
+Raneeth Jayaratne 
+
+## ℹ️ Project information
+Program name: Cybersecurity intern @NETWORKWALKS | Batch: B084E
