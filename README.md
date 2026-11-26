@@ -69,3 +69,18 @@ whois
 SQL error revealed
 <img width="1919" height="1012" alt="SQL error revealed" src="https://github.com/user-attachments/assets/c2fc9112-460b-4d48-aae7-ed5a96e7dd9d" />
 
+
+## Risk Rating
+
+| Finding | Severity | Rationale |
+| ---------- | ---- | --------| 
+|Patients' portal is vulnerable to SQL injections | 🔴 Critical | Allows authentication bypass and potential direct database extraction or compromise of the underlying application. |
+| Patients' reports were extractable after login into the portal with Payload (Without credentials) | 🔴 Critical | Exposes confidential medical records of the patients resulting in an impact on privacy and compliance. |
+| Passwords are guessable on the extracted reports | 🟠 High | implementing weak passwords on PDFs can make it easy for threat actors to obtain access to the sensitive information in the reports |
+
+
+## Recommendations and Remediations
+
+1. **Enhance strong authentication on the login form with parameterized queries**: Use bound parameters to pass user input instead of constructing SQL statements by concatenating strings. Even if the user inputs a malicious SQL statement such as ``' OR 1=1 --``, the database sees it as plain text only.
+2. **Strengthen password protection of patients' reports**: Use PDF encryption and access controls for keys for securing patient PDF files rather than depending on simple password protection.
+3. **Add rate limiting and account lockout**: Enforce repeated failed login attempts to a certain limit. So that after the limit, the account is lockout so the file cannot be unlocked and extracted. This helps to prevent brute-force attacks.
